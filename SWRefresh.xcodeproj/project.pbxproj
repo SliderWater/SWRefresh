@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		949F52EE1CA14D4E00792EA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F52ED1CA14D4E00792EA9 /* main.m */; };
-		949F52F11CA14D4E00792EA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F52F01CA14D4E00792EA9 /* AppDelegate.m */; };
-		949F52F41CA14D4E00792EA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F52F31CA14D4E00792EA9 /* ViewController.m */; };
 		949F52F71CA14D4E00792EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949F52F51CA14D4E00792EA9 /* Main.storyboard */; };
 		949F52F91CA14D4E00792EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949F52F81CA14D4E00792EA9 /* Assets.xcassets */; };
 		949F52FC1CA14D4E00792EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949F52FA1CA14D4E00792EA9 /* LaunchScreen.storyboard */; };
 		949F53071CA14D4F00792EA9 /* SWRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F53061CA14D4F00792EA9 /* SWRefreshTests.m */; };
 		949F53121CA14D4F00792EA9 /* SWRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F53111CA14D4F00792EA9 /* SWRefreshUITests.m */; };
+		94A062F31CA3DC7A0059B360 /* SWExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062EC1CA3DC7A0059B360 /* SWExample.m */; };
+		94A062F41CA3DC7A0059B360 /* SWExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062EE1CA3DC7A0059B360 /* SWExampleViewController.m */; };
+		94A062F51CA3DC7A0059B360 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062F11CA3DC7A0059B360 /* AppDelegate.m */; };
+		94A062F81CA3DD1E0059B360 /* SWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A062F71CA3DD1E0059B360 /* SWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,6 @@
 /* Begin PBXFileReference section */
 		949F52E91CA14D4E00792EA9 /* SWRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F52ED1CA14D4E00792EA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		949F52EF1CA14D4E00792EA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		949F52F01CA14D4E00792EA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		949F52F21CA14D4E00792EA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		949F52F31CA14D4E00792EA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		949F52F61CA14D4E00792EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		949F52F81CA14D4E00792EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949F52FB1CA14D4E00792EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,14 @@
 		949F530D1CA14D4F00792EA9 /* SWRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F53111CA14D4F00792EA9 /* SWRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRefreshUITests.m; sourceTree = "<group>"; };
 		949F53131CA14D4F00792EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A062EB1CA3DC7A0059B360 /* SWExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWExample.h; sourceTree = "<group>"; };
+		94A062EC1CA3DC7A0059B360 /* SWExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWExample.m; sourceTree = "<group>"; };
+		94A062ED1CA3DC7A0059B360 /* SWExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWExampleViewController.h; sourceTree = "<group>"; };
+		94A062EE1CA3DC7A0059B360 /* SWExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWExampleViewController.m; sourceTree = "<group>"; };
+		94A062F01CA3DC7A0059B360 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94A062F11CA3DC7A0059B360 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94A062F61CA3DD1E0059B360 /* SWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewController.h; sourceTree = "<group>"; };
+		94A062F71CA3DD1E0059B360 /* SWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,7 @@
 		949F52EB1CA14D4E00792EA9 /* SWRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				949F52EF1CA14D4E00792EA9 /* AppDelegate.h */,
-				949F52F01CA14D4E00792EA9 /* AppDelegate.m */,
-				949F52F21CA14D4E00792EA9 /* ViewController.h */,
-				949F52F31CA14D4E00792EA9 /* ViewController.m */,
-				949F52F51CA14D4E00792EA9 /* Main.storyboard */,
-				949F52F81CA14D4E00792EA9 /* Assets.xcassets */,
-				949F52FA1CA14D4E00792EA9 /* LaunchScreen.storyboard */,
-				949F52FD1CA14D4E00792EA9 /* Info.plist */,
+				94A062E71CA3DC7A0059B360 /* Class */,
 				949F52EC1CA14D4E00792EA9 /* Supporting Files */,
 			);
 			path = SWRefresh;
@@ -117,6 +116,10 @@
 		949F52EC1CA14D4E00792EA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				949F52F51CA14D4E00792EA9 /* Main.storyboard */,
+				949F52F81CA14D4E00792EA9 /* Assets.xcassets */,
+				949F52FA1CA14D4E00792EA9 /* LaunchScreen.storyboard */,
+				949F52FD1CA14D4E00792EA9 /* Info.plist */,
 				949F52ED1CA14D4E00792EA9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +141,61 @@
 				949F53131CA14D4F00792EA9 /* Info.plist */,
 			);
 			path = SWRefreshUITests;
+			sourceTree = "<group>";
+		};
+		94A062E71CA3DC7A0059B360 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				94A062E81CA3DC7A0059B360 /* Category */,
+				94A062E91CA3DC7A0059B360 /* DIY */,
+				94A062EA1CA3DC7A0059B360 /* First */,
+				94A062F21CA3DC7A0059B360 /* Second */,
+				94A062EF1CA3DC7A0059B360 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		94A062E81CA3DC7A0059B360 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		94A062E91CA3DC7A0059B360 /* DIY */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DIY;
+			sourceTree = "<group>";
+		};
+		94A062EA1CA3DC7A0059B360 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				94A062EB1CA3DC7A0059B360 /* SWExample.h */,
+				94A062EC1CA3DC7A0059B360 /* SWExample.m */,
+				94A062ED1CA3DC7A0059B360 /* SWExampleViewController.h */,
+				94A062EE1CA3DC7A0059B360 /* SWExampleViewController.m */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		94A062EF1CA3DC7A0059B360 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				94A062F01CA3DC7A0059B360 /* AppDelegate.h */,
+				94A062F11CA3DC7A0059B360 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		94A062F21CA3DC7A0059B360 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				94A062F61CA3DD1E0059B360 /* SWTableViewController.h */,
+				94A062F71CA3DD1E0059B360 /* SWTableViewController.m */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +328,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949F52F41CA14D4E00792EA9 /* ViewController.m in Sources */,
-				949F52F11CA14D4E00792EA9 /* AppDelegate.m in Sources */,
+				94A062F31CA3DC7A0059B360 /* SWExample.m in Sources */,
+				94A062F41CA3DC7A0059B360 /* SWExampleViewController.m in Sources */,
+				94A062F81CA3DD1E0059B360 /* SWTableViewController.m in Sources */,
 				949F52EE1CA14D4E00792EA9 /* main.m in Sources */,
+				94A062F51CA3DC7A0059B360 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +556,7 @@
 				949F53181CA14D4F00792EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		949F53191CA14D4F00792EA9 /* Build configuration list for PBXNativeTarget "SWRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +565,7 @@
 				949F531B1CA14D4F00792EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		949F531C1CA14D4F00792EA9 /* Build configuration list for PBXNativeTarget "SWRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +574,7 @@
 				949F531E1CA14D4F00792EA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
