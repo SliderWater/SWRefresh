@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "949F52E81CA14D4E00792EA9"
-               BuildableName = "SWRefreshExample.app"
+               BuildableName = "SWRefresh.app"
                BlueprintName = "SWRefresh"
                ReferencedContainer = "container:SWRefresh.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "949F52E81CA14D4E00792EA9"
-            BuildableName = "SWRefreshExample.app"
+            BuildableName = "SWRefresh.app"
             BlueprintName = "SWRefresh"
             ReferencedContainer = "container:SWRefresh.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "949F52E81CA14D4E00792EA9"
-            BuildableName = "SWRefreshExample.app"
+            BuildableName = "SWRefresh.app"
             BlueprintName = "SWRefresh"
             ReferencedContainer = "container:SWRefresh.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "949F52E81CA14D4E00792EA9"
-            BuildableName = "SWRefreshExample.app"
+            BuildableName = "SWRefresh.app"
             BlueprintName = "SWRefresh"
             ReferencedContainer = "container:SWRefresh.xcodeproj">
          </BuildableReference>
