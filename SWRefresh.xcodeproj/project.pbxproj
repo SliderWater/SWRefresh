@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		945B5F491CA4CC2D00E400F1 /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B5F481CA4CC2D00E400F1 /* UIViewController+Example.m */; };
+		945B5F4F1CA515B500E400F1 /* SWTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B5F4E1CA515B500E400F1 /* SWTestViewController.m */; };
+		945B5F531CA5297100E400F1 /* SWRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B5F521CA5297100E400F1 /* SWRefreshComponent.m */; };
+		945B5F561CA53D7D00E400F1 /* UIView+SWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 945B5F551CA53D7D00E400F1 /* UIView+SWFrame.m */; };
 		949F52EE1CA14D4E00792EA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 949F52ED1CA14D4E00792EA9 /* main.m */; };
 		949F52F71CA14D4E00792EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949F52F51CA14D4E00792EA9 /* Main.storyboard */; };
 		949F52F91CA14D4E00792EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949F52F81CA14D4E00792EA9 /* Assets.xcassets */; };
@@ -37,16 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		945B5F471CA4CC2D00E400F1 /* UIViewController+Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Example.h"; sourceTree = "<group>"; };
+		945B5F481CA4CC2D00E400F1 /* UIViewController+Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Example.m"; sourceTree = "<group>"; };
+		945B5F4D1CA515B500E400F1 /* SWTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTestViewController.h; sourceTree = "<group>"; };
+		945B5F4E1CA515B500E400F1 /* SWTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTestViewController.m; sourceTree = "<group>"; };
+		945B5F511CA5297100E400F1 /* SWRefreshComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRefreshComponent.h; sourceTree = "<group>"; };
+		945B5F521CA5297100E400F1 /* SWRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRefreshComponent.m; sourceTree = "<group>"; };
+		945B5F541CA53D7D00E400F1 /* UIView+SWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SWFrame.h"; sourceTree = "<group>"; };
+		945B5F551CA53D7D00E400F1 /* UIView+SWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SWFrame.m"; sourceTree = "<group>"; };
 		949F52E91CA14D4E00792EA9 /* SWRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F52ED1CA14D4E00792EA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		949F52F61CA14D4E00792EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		949F52F81CA14D4E00792EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949F52FB1CA14D4E00792EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		949F52FD1CA14D4E00792EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		949F53021CA14D4F00792EA9 /* SWRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		949F53021CA14D4F00792EA9 /* SWRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F53061CA14D4F00792EA9 /* SWRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRefreshTests.m; sourceTree = "<group>"; };
 		949F53081CA14D4F00792EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		949F530D1CA14D4F00792EA9 /* SWRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		949F530D1CA14D4F00792EA9 /* SWRefresh.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRefresh.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		949F53111CA14D4F00792EA9 /* SWRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRefreshUITests.m; sourceTree = "<group>"; };
 		949F53131CA14D4F00792EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94A062EB1CA3DC7A0059B360 /* SWExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWExample.h; sourceTree = "<group>"; };
@@ -84,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		945B5F501CA5294E00E400F1 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				945B5F511CA5297100E400F1 /* SWRefreshComponent.h */,
+				945B5F521CA5297100E400F1 /* SWRefreshComponent.m */,
+				945B5F541CA53D7D00E400F1 /* UIView+SWFrame.h */,
+				945B5F551CA53D7D00E400F1 /* UIView+SWFrame.m */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
 		949F52E01CA14D4E00792EA9 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				949F52E91CA14D4E00792EA9 /* SWRefresh.app */,
-				949F53021CA14D4F00792EA9 /* SWRefreshTests.xctest */,
-				949F530D1CA14D4F00792EA9 /* SWRefreshUITests.xctest */,
+				949F53021CA14D4F00792EA9 /* SWRefresh.xctest */,
+				949F530D1CA14D4F00792EA9 /* SWRefresh.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +130,7 @@
 		949F52EB1CA14D4E00792EA9 /* SWRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				945B5F501CA5294E00E400F1 /* Refresh */,
 				94A062E71CA3DC7A0059B360 /* Class */,
 				949F52EC1CA14D4E00792EA9 /* Supporting Files */,
 			);
@@ -158,6 +182,8 @@
 		94A062E81CA3DC7A0059B360 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				945B5F471CA4CC2D00E400F1 /* UIViewController+Example.h */,
+				945B5F481CA4CC2D00E400F1 /* UIViewController+Example.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -194,6 +220,8 @@
 			children = (
 				94A062F61CA3DD1E0059B360 /* SWTableViewController.h */,
 				94A062F71CA3DD1E0059B360 /* SWTableViewController.m */,
+				945B5F4D1CA515B500E400F1 /* SWTestViewController.h */,
+				945B5F4E1CA515B500E400F1 /* SWTestViewController.m */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -233,7 +261,7 @@
 			);
 			name = SWRefreshTests;
 			productName = SWRefreshTests;
-			productReference = 949F53021CA14D4F00792EA9 /* SWRefreshTests.xctest */;
+			productReference = 949F53021CA14D4F00792EA9 /* SWRefresh.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		949F530C1CA14D4F00792EA9 /* SWRefreshUITests */ = {
@@ -251,7 +279,7 @@
 			);
 			name = SWRefreshUITests;
 			productName = SWRefreshUITests;
-			productReference = 949F530D1CA14D4F00792EA9 /* SWRefreshUITests.xctest */;
+			productReference = 949F530D1CA14D4F00792EA9 /* SWRefresh.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -331,6 +359,10 @@
 				94A062F31CA3DC7A0059B360 /* SWExample.m in Sources */,
 				94A062F41CA3DC7A0059B360 /* SWExampleViewController.m in Sources */,
 				94A062F81CA3DD1E0059B360 /* SWTableViewController.m in Sources */,
+				945B5F531CA5297100E400F1 /* SWRefreshComponent.m in Sources */,
+				945B5F491CA4CC2D00E400F1 /* UIViewController+Example.m in Sources */,
+				945B5F4F1CA515B500E400F1 /* SWTestViewController.m in Sources */,
+				945B5F561CA53D7D00E400F1 /* UIView+SWFrame.m in Sources */,
 				949F52EE1CA14D4E00792EA9 /* main.m in Sources */,
 				94A062F51CA3DC7A0059B360 /* AppDelegate.m in Sources */,
 			);
@@ -474,7 +506,7 @@
 				INFOPLIST_FILE = SWRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sliderwater.SWRefresh;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRefresh;
 			};
 			name = Debug;
 		};
@@ -485,7 +517,7 @@
 				INFOPLIST_FILE = SWRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sliderwater.SWRefresh;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRefresh;
 			};
 			name = Release;
 		};
@@ -496,7 +528,7 @@
 				INFOPLIST_FILE = SWRefreshTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sliderwater.SWRefreshTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRefresh;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWRefresh.app/SWRefresh";
 			};
 			name = Debug;
@@ -508,7 +540,7 @@
 				INFOPLIST_FILE = SWRefreshTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sliderwater.SWRefreshTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRefresh;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWRefresh.app/SWRefresh";
 			};
 			name = Release;
@@ -519,7 +551,7 @@
 				INFOPLIST_FILE = SWRefreshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sliderwater.SWRefreshUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRefresh;
 				TEST_TARGET_NAME = SWRefresh;
 				USES_XCTRUNNER = YES;
 			};
@@ -531,7 +563,7 @@
 				INFOPLIST_FILE = SWRefreshUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sliderwater.SWRefreshUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SWRefresh;
 				TEST_TARGET_NAME = SWRefresh;
 				USES_XCTRUNNER = YES;
 			};

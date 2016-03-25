@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SWRefresh.xcodeproj">
+      location = "self:/Users/guochengxin/Desktop/project/SWRefresh/SWRefresh.xcodeproj">
    </FileRef>
 </Workspace>
